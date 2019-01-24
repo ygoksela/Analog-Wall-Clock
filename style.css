@@ -128,26 +128,3 @@ body {
     left: 50%;
     top: 12%;
 }
-
-.dialline {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    width: 0px;
-    height: 0px;
-}
-
-.dialline::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    width: .50vw;
-    height: 1.5vw;
-    background: #f8c03a;
-    transform: translate(-50%, -50%);
-}
-
-.h1 {
-    transform: rotate(30deg);
-}
